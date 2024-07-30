@@ -52,7 +52,7 @@ def encode_A(obj):
                  'description': obj.description,
                  'add_date': obj.add_date,
                  'due_date': obj.due_date,
-                 'finished_date': obj.id,
+                 'finished_date': obj.finished_date,
                  'completed': obj.completed}
      return obj
 
